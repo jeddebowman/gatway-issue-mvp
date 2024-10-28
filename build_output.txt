@@ -1,0 +1,27 @@
+
+> gateway-issue-mvp@0.0.0 deploy /Users/jeddebowman/gatway-issue-mvp
+> sst deploy --stage development
+
+SST 3.2.5  ready!
+
+➜  App:        test-api
+   Stage:      development
+
+~  Deploy
+
+|  Error       
+|  Cannot access the created function because it is referenced as an ARN.
+|  Error       
+|  Cannot access the created function because it is referenced as an ARN.
+|  Error       
+|  Cannot access the created function because it is referenced as an ARN.
+
+✕  Failed    
+   Cannot access the created function because it is referenced as an ARN.
+
+   Cannot access the created function because it is referenced as an ARN.
+
+   Cannot access the created function because it is referenced as an ARN.
+
+
+ ELIFECYCLE  Command failed with exit code 1.

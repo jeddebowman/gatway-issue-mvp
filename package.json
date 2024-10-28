@@ -1,0 +1,29 @@
+{
+  "name": "gateway-issue-mvp",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "sst dev",
+    "deploy": "sst deploy --stage development",
+    "refresh": "sst refresh",
+    "remove": "sst remove",
+    "format": "prettier --write \"**/*.{ts,tsx,js,jsx,json,md}\"",
+    "lint": "eslint \"**/*.{ts,tsx}\"",
+    "test": "vitest",
+    "test:coverage": "vitest run --coverage"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.9.1",
+    "@tsconfig/node20": "catalog:",
+    "@vitest/coverage-v8": "^2.0.5",
+    "eslint": "^8.57.0",
+    "eslint-config-prettier": "^8.5.0",
+    "globals": "^15.9.0",
+    "prettier": "catalog:",
+    "typescript": "catalog:",
+    "typescript-eslint": "^8.3.0",
+    "vitest": "catalog:"
+  },
+  "dependencies": {
+    "sst": "catalog:"
+  }
+}
